@@ -1,0 +1,14 @@
+.header {
+    background-color: #FFFFFF;
+    min-width: 320px;
+}
+
+.header--screen--mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 88px;
+    padding: 0 16px;
+    border-bottom: 1px solid #D9FFF5;
+    box-sizing: border-box;
+}

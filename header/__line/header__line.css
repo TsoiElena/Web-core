@@ -1,0 +1,14 @@
+.header__line {
+    width: 2px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
+}
+
+.header__line--screen--mobile{
+    margin-left: 17px;
+}
+
+.header__line--screen--tablet {
+    display: none;
+}

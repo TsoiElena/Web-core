@@ -1,0 +1,7 @@
+.header__menuIcon {
+    background-image: url(../../assets/header/menuIcon.png);
+}
+
+.header__menuIcon--screen--mobile {
+    margin-right: 17px;
+}
