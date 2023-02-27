@@ -5,38 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
+    <!--header styles-->
     <link rel="stylesheet" href="header/header.css">
-    <link rel="stylesheet" href="header/menuIcon/header__menuIcon.css">
     <link rel="stylesheet" href="header/logicBlock/header__logicBlock.css">
     <link rel="stylesheet" href="header/line/header__line.css">
-    <link rel="stylesheet" href="header/settingsIcon/header__settingsIcon.css">
-    <link rel="stylesheet" href="header/searchIcon/header__searchIcon.css">
+    <!--icon styles-->
     <link rel="stylesheet" href="icon/icon.css">
+    <link rel="stylesheet" href="icon/menuIcon/icon__menuIcon.css">
+    <link rel="stylesheet" href="icon/settingsIcon/icon__settingsIcon.css">
+    <link rel="stylesheet" href="icon/statusIcon/icon__statusIcon.css">
+    <link rel="stylesheet" href="icon/profileIcon/icon__profileIcon.css">
+    <link rel="stylesheet" href="icon/callIcon/icon__callIcon.css">
+    <link rel="stylesheet" href="icon/chatIcon/icon__chatIcon.css">
+    <!--logo styles-->
     <link rel="stylesheet" href="siteLogo/siteLogo.css">
+    <!--contacts styles-->
     <link rel="stylesheet" href="contacts/contacts.css">
-    <link rel="stylesheet" href="contacts/callIcon/contacts__callIcon.css">
-    <link rel="stylesheet" href="contacts/chatIcon/contacts__chatIcon.css">
-    <link rel="stylesheet" href="contacts/profileIcon/contacts__profileIcon.css">
+    <!--settingStatusBlock styles-->
+    <link rel="stylesheet" href="settingStatusBlock/settingStatusBlock.css">
 
     <title>WebCore1.3</title>
 </head>
 <body>
-    <header class="header header--screen--mobile">
+    <header class="header header--screen--mobile header--screen--tablet header--screen--bigScreen">
         <div class="header__logicBlock">
-            <div class="icon header__menuIcon header__menuIcon--screen--mobile header__menuIcon--screen--tablet"></div>
+            <button class="icon icon__menuIcon icon__menuIcon--screen--mobile icon__menuIcon--screen--tablet"></button>
             <div class="header__line header__line--screen--tablet"></div>
             <img src="./assets/logos/siteLogo.png" alt="логотип сайта" class="sitelogo">
             <div class="header__line header__line--screen--mobile"></div>
         </div>
         <div class="header__logicBlock">
             <div class="contacts contacts--screen--mobile contacts--screen--tablet">
-                <div class="icon contacts__callIcon"></div>
-                <div class="icon contacts__chatIcon"></div>
-                <div class="icon contacts__profileIcon"></div>
+                <button class="icon icon__callIcon"></button>
+                <button class="icon icon__chatIcon"></button>
+                <button class="icon icon__profileIcon"></button>
             </div>
             <div class="header__line header__line--screen--tablet"></div>
-            <div class="icon header__settingsIcon"></div>
-            <div class="icon header__searchIcon"></div>
+            <div class="settingStatusBlock">
+                <button class="icon icon__settingsIcon"></button>
+                <button class="icon icon__statusIcon"></button>
+            </div>
         </div>
     </header>
     <main class="main">

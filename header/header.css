@@ -3,7 +3,8 @@
     min-width: 320px;
 }
 
-.header--screen--mobile {
+.header--screen--mobile,
+.header--screen--tablet {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,4 +12,10 @@
     padding: 0 16px;
     border-bottom: 1px solid #D9FFF5;
     box-sizing: border-box;
+}
+
+@media all and (min-width: 1120px) {
+    .header--screen--bigScreen {
+        display: none;
+    }
 }

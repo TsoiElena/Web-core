@@ -1,13 +1,13 @@
-.header__menuIcon {
+.icon__menuIcon {
     background-image: url(../../assets/Icons/menuIcon.svg);
 }
 
-.header__menuIcon--screen--mobile {
+.icon__menuIcon--screen--mobile {
     margin-right: 17px;
 }
 
 @media all and (min-width: 768px) {
-    .header__menuIcon--screen--tablet {
+    .icon__menuIcon--screen--tablet {
         margin: 0;
     }
 }
