@@ -3,8 +3,8 @@
     min-width: 320px;
 }
 
-.header--screen--mobile,
-.header--screen--tablet {
+.header--mobile,
+.header--tablet {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 @media all and (min-width: 1120px) {
-    .header--screen--bigScreen {
+    .header--bigScreen {
         display: none;
     }
 }

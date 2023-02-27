@@ -1,0 +1,38 @@
+.menu__link {
+    white-space: nowrap;
+    color: #7E7E82;
+    text-decoration: none;
+}
+
+.menu__link--mobile {
+    margin: 0 10px;
+}
+
+.menu__link--mobile--active {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media all and (min-width: 768px) {
+    .menu__link--mobile {
+        margin: 0;
+    }
+    .menu__link--tablet {
+        margin: 0 12px;
+    }
+}
+
+@media all and (min-width: 1120px) {
+    .menu__link--bigScreen--active {
+        margin: 0 22px;
+    }
+    .menu__link--tablet {
+        margin: 0;
+    }
+    .menu__link--mobile--active {
+        margin: 0;
+    }
+    .menu__link--bigScreen {
+        margin: 0 19px;
+    }
+}

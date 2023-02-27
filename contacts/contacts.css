@@ -1,9 +1,9 @@
-.contacts--screen--mobile {
+.contacts--mobile {
     display: none;
 }
 
 @media all and (min-width: 768px) {
-    .contacts--screen--tablet {
+    .contacts--tablet {
         display: flex;
         gap: 16px;
     }

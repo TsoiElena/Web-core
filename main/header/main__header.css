@@ -3,23 +3,23 @@
     border-left: 4px solid #41F6D7;
 }
 
-.main__header--screen-mobile,
-.main__header--screen--tablet {
+.main__header-mobile,
+.main__header--tablet {
     margin-top: 24px;
 }
 
-.main__header--screen-mobile {
+.main__header-mobile {
     padding-left: 12px;
 }
 
 @media all and (min-width: 768px) {
-    .main__header--screen--tablet {
+    .main__header--tablet {
         padding-left: 20px;
     }
 }
 
 @media all and (min-width: 1120px) {
-    .main__header--screen--bigScreen {
+    .main__header--bigScreen {
         display: flex;
         justify-content: space-between;
         align-items: center;
