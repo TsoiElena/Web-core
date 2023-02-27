@@ -12,3 +12,14 @@
 .header__line--screen--tablet {
     display: none;
 }
+
+@media all and (min-width: 767px) {
+    .header__line--screen--mobile {
+        display: none;
+    }
+
+    .header__line--screen--tablet {
+        display: block;
+        margin: 0 20px;
+    }
+}

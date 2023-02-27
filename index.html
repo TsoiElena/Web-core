@@ -13,18 +13,28 @@
     <link rel="stylesheet" href="header/searchIcon/header__searchIcon.css">
     <link rel="stylesheet" href="icon/icon.css">
     <link rel="stylesheet" href="siteLogo/siteLogo.css">
+    <link rel="stylesheet" href="contacts/contacts.css">
+    <link rel="stylesheet" href="contacts/callIcon/contacts__callIcon.css">
+    <link rel="stylesheet" href="contacts/chatIcon/contacts__chatIcon.css">
+    <link rel="stylesheet" href="contacts/profileIcon/contacts__profileIcon.css">
 
     <title>WebCore1.3</title>
 </head>
 <body>
     <header class="header header--screen--mobile">
         <div class="header__logicBlock">
-            <div class="icon header__menuIcon header__menuIcon--screen--mobile"></div>
+            <div class="icon header__menuIcon header__menuIcon--screen--mobile header__menuIcon--screen--tablet"></div>
             <div class="header__line header__line--screen--tablet"></div>
             <img src="./assets/logos/siteLogo.png" alt="логотип сайта" class="sitelogo">
             <div class="header__line header__line--screen--mobile"></div>
         </div>
         <div class="header__logicBlock">
+            <div class="contacts contacts--screen--mobile contacts--screen--tablet">
+                <div class="icon contacts__callIcon"></div>
+                <div class="icon contacts__chatIcon"></div>
+                <div class="icon contacts__profileIcon"></div>
+            </div>
+            <div class="header__line header__line--screen--tablet"></div>
             <div class="icon header__settingsIcon"></div>
             <div class="icon header__searchIcon"></div>
         </div>

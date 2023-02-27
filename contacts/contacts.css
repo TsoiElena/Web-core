@@ -1,0 +1,10 @@
+.contacts--screen--mobile {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    .contacts--screen--tablet {
+        display: flex;
+        gap: 16px;
+    }
+}
