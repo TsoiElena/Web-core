@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/icon/statusIcon/icon__statusIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settingStatusBlock/settingStatusBlock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/header/main__header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settingStatusBlock/button/settingStatusBlock__button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/title/title.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Icons/searchIcon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Icons/statusIcon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/callIcon/contacts__callIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/callIcon/icon__callIcon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/chatIcon/contacts__chatIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/chatIcon/icon__chatIcon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/profileIcon/contacts__profileIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/profileIcon/icon__profileIcon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/menuIcon/header__menuIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/menuIcon/icon__menuIcon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/searchIcon/header__searchIcon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/settingsIcon/header__settingsIcon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/settingsIcon/icon__settingsIcon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/icon/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settingStatusBlock/settingStatusBlock.css" beforeDir="false" afterPath="$PROJECT_DIR$/settingStatusBlock/settingStatusBlock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Helen\Desktop\web-core\Web-core\settingStatusBlock" />
       <recent name="C:\Users\Helen\Desktop\web-core\Web-core\icon" />
     </key>
   </component>
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677447166848</updated>
       <workItem from="1677447169295" duration="12239000" />
-      <workItem from="1677511723086" duration="4262000" />
+      <workItem from="1677511723086" duration="7345000" />
     </task>
     <task id="LOCAL-00001" summary="first commit + fonts">
       <created>1677448894210</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677514374892</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="header">
+      <created>1677516309696</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677516309696</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,17 +148,30 @@
     <MESSAGE value="first commit + fonts" />
     <MESSAGE value="header mobile" />
     <MESSAGE value="header tablet vertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="header tablet vertion" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677518271571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677518271571" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1677514188853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677514188853" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677514381019">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677516313352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677514381019" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677516313352" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677448902950" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1677517597144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677517597144" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-2" timestamp="1677517597144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677517597144" />
   </component>
 </project>

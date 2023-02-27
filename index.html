@@ -23,32 +23,52 @@
     <link rel="stylesheet" href="contacts/contacts.css">
     <!--settingStatusBlock styles-->
     <link rel="stylesheet" href="settingStatusBlock/settingStatusBlock.css">
+    <link rel="stylesheet" href="settingStatusBlock/button/settingStatusBlock__button.css">
+    <!--main styles-->
+    <link rel="stylesheet" href="main/main.css">
+    <link rel="stylesheet" href="main/header/main__header.css">
+
+    <link rel="stylesheet" href="title/title.css">
+
+    <link rel="stylesheet" href="button/button.css">
 
     <title>WebCore1.3</title>
 </head>
 <body>
     <header class="header header--screen--mobile header--screen--tablet header--screen--bigScreen">
         <div class="header__logicBlock">
-            <button class="icon icon__menuIcon icon__menuIcon--screen--mobile icon__menuIcon--screen--tablet"></button>
+            <button class="button icon icon__menuIcon icon__menuIcon--screen--mobile icon__menuIcon--screen--tablet"></button>
             <div class="header__line header__line--screen--tablet"></div>
             <img src="./assets/logos/siteLogo.png" alt="логотип сайта" class="sitelogo">
             <div class="header__line header__line--screen--mobile"></div>
         </div>
         <div class="header__logicBlock">
             <div class="contacts contacts--screen--mobile contacts--screen--tablet">
-                <button class="icon icon__callIcon"></button>
-                <button class="icon icon__chatIcon"></button>
-                <button class="icon icon__profileIcon"></button>
+                <button class="button icon icon__callIcon"></button>
+                <button class="button icon icon__chatIcon"></button>
+                <button class="button icon icon__profileIcon"></button>
             </div>
             <div class="header__line header__line--screen--tablet"></div>
             <div class="settingStatusBlock">
-                <button class="icon icon__settingsIcon"></button>
-                <button class="icon icon__statusIcon"></button>
+                <button class="button icon icon__settingsIcon"></button>
+                <button class="button icon icon__statusIcon"></button>
             </div>
         </div>
     </header>
     <main class="main">
-
+        <div class="main__header main__header--screen-mobile main__header--screen--tablet main__header--screen--bigScreen">
+            <h1 class="title">Услуги и сервисы</h1>
+            <div class="settingStatusBlock settingStatusBlock--screen--mobile settingStatusBlock--scrren--tablet settingStatusBlock--screen--bigScreen">
+                <button class="button  settingStatusBlock__button">
+                    Оставить заявку
+                    <div class=" icon icon__settingsIcon"></div>
+                </button>
+                <button class="button  settingStatusBlock__button">
+                    Статус ремонта
+                    <div class=" icon icon__statusIcon"></div>
+                </button>
+            </div>
+        </div>
     </main>
 </body>
 </html>

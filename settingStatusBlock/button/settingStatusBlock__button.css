@@ -1,0 +1,8 @@
+.settingStatusBlock__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    background-color: transparent;
+}

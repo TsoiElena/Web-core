@@ -2,3 +2,15 @@
     display: flex;
     gap: 16px;
 }
+
+.settingStatusBlock--screen--mobile,
+.settingStatusBlock--scrren--tablet {
+    display: none;
+}
+
+@media all and (min-width: 1120px) {
+    .settingStatusBlock--screen--bigScreen {
+        display: flex;
+        gap: 32px;
+    }
+}
