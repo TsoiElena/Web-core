@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/header/__line/header__line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/__logicBlock/header__logicBlock.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/__menuIcon/header__menuIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/__searchIcon/header__searchIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/__settingsIcon/header__settingsIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siteLogo/siteLogo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677447166848</updated>
-      <workItem from="1677447169295" duration="10027000" />
+      <workItem from="1677447169295" duration="10715000" />
     </task>
     <task id="LOCAL-00001" summary="first commit + fonts">
       <created>1677448894210</created>
@@ -78,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677448894210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="header mobile">
+      <created>1677457458268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677457458268</updated>
+    </task>
+    <task id="LOCAL-00003" summary="header mobile">
+      <created>1677457983245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677457983245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,12 +99,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit + fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit + fonts" />
+    <MESSAGE value="header mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="header mobile" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677448902950">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677457986654">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677457986654" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677448902950" />
   </component>
 </project>
