@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+}
+
+.content--mobile {
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 24px;
+}

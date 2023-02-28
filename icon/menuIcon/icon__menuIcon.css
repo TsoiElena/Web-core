@@ -2,12 +2,12 @@
     background-image: url(../../assets/Icons/menuIcon.svg);
 }
 
-.icon__menuIcon--screen--mobile {
+.icon__menuIcon--mobile {
     margin-right: 17px;
 }
 
 @media all and (min-width: 768px) {
-    .icon__menuIcon--screen--tablet {
+    .icon__menuIcon--tablet {
         margin: 0;
     }
 }
