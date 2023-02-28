@@ -1,0 +1,6 @@
+@media all and (min-width: 768px) {
+    .content__photo--tablet {
+        width: 360px;
+        height: 208px;
+    }
+}

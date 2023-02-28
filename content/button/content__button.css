@@ -14,5 +14,14 @@
 }
 
 .content__button--mobile {
-    margin: 16px 0;
+    margin-top: 16px;
+}
+
+@media all and (min-width: 768px) {
+    .content__button--mobile {
+        margin: 0;
+    }
+    .content__button--tablet {
+        margin-top: 10px;
+    }
 }

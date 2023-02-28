@@ -4,6 +4,16 @@
 
 .content--mobile {
     flex-direction: column;
+    gap: 16px;
     margin-bottom: 35px;
     margin-top: 24px;
+}
+
+@media all and (min-width: 768px) {
+    .content--tablet {
+        flex-direction: row;
+        gap: 48px;
+        justify-content: space-between;
+        margin: 32px 25px 40px 24px;
+    }
 }

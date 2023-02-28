@@ -1,3 +1,14 @@
 .content__text--mobile {
     margin: 0;
 }
+
+.content__text--tablet {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+    .content__text--tablet {
+        display: block;
+        margin-bottom: 0;
+    }
+}

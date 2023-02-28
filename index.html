@@ -46,6 +46,8 @@
     <link rel="stylesheet" href="content/info/content__info.css">
     <link rel="stylesheet" href="content/text/content__text.css">
     <link rel="stylesheet" href="content/button/content__button.css">
+    <link rel="stylesheet" href="content/photo/content__photo.css">
+    <link rel="stylesheet" href="content/logicBlock/content__logicBlock.css">
 
     <title>WebCore1.3</title>
 </head>
@@ -110,17 +112,23 @@
             </ul>
             <div class="menu__gardient"></div>
         </nav>
-        <div class="content content--mobile">
-            <div class="content__info--mobile">
-                <p class="text content__text--mobile">
-                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                </p>
-                <button class="button content__button content__button--mobile">
+        <div class="content content--mobile content--tablet">
+            <div class="content__info--mobile content__info--tablet">
+                <div class="content__logicBlock--tablet">
+                    <p class="text content__text--mobile">
+                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    </p>
+                    <p class="text content__text--tablet">
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов.
+                        Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                    </p>
+                </div>
+                <button class="button content__button content__button--mobile content__button--tablet">
                     <div class="content__button--icon"></div>
                     Читать далее
                 </button>
             </div>
-            <img src="assets/photos/siteLogoPhoto.png" alt="фото вывески">
+            <img src="assets/photos/siteLogoPhoto.png" alt="фото вывески" class="content__photo--tablet">
         </div>
     </main>
 </body>
