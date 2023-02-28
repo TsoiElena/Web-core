@@ -4,3 +4,10 @@
         height: 208px;
     }
 }
+
+@media all and (min-width: 1120px) {
+    .content__photo--bigScreen {
+        width: 532px;
+        height: 307px;
+    }
+}
