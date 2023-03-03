@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677447166848</updated>
       <workItem from="1677447169295" duration="12239000" />
-      <workItem from="1677511723086" duration="31251000" />
+      <workItem from="1677511723086" duration="31563000" />
     </task>
     <task id="LOCAL-00001" summary="first commit + fonts">
       <created>1677448894210</created>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677604140704</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="menuBurger start">
+      <created>1677824826766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677824826767</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +185,8 @@
     <MESSAGE value="mobile verstion" />
     <MESSAGE value="tablet verstion" />
     <MESSAGE value="well done" />
-    <option name="LAST_COMMIT_MESSAGE" value="well done" />
+    <MESSAGE value="menuBurger start" />
+    <option name="LAST_COMMIT_MESSAGE" value="menuBurger start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677518271571">
