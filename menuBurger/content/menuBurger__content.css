@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-@media all and (min-height: 1025px) {
+@media all and (min-height: 1025px) and (min-width: 1120px) {
     .menuBurger__content--bigScreen {
         display: block;
     }
