@@ -1,0 +1,13 @@
+.icon__closeIcon {
+    background-image: url(../../assets/Icons/closeIcon.svg);
+}
+
+.icon__closeIcon--mobile {
+    margin-right: 17px;
+}
+
+@media all and (min-width: 1120px) {
+    .icon__closeIcon--bigScreen {
+        display: none;
+    }
+}

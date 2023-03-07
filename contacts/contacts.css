@@ -1,3 +1,8 @@
+.contacts {
+    display: flex;
+    gap: 16px;
+}
+
 .contacts--mobile {
     display: none;
 }

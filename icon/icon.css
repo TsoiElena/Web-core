@@ -6,3 +6,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.icon:hover {
+    transition: 1.5s;
+    opacity: 0.7;
+}

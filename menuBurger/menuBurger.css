@@ -1,0 +1,35 @@
+.menuBurger {
+    width: 320px;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.menuBurger--mail {
+    display: inline-block;
+    margin-top: 16px;
+    line-height: 24px;
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.menuBurger--phone {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+@media all and (min-width: 768px) {
+    .menuBurger--tablet {
+        box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
+    }
+}
+
+

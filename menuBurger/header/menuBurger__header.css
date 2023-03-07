@@ -1,0 +1,32 @@
+.menuBurger__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuBurger__header--mobile {
+    min-height: 88px;
+    padding: 18px 16px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+    .menuBurger__header--mobile {
+        padding: 0;
+    }
+    .menuBurger__header--tablet {
+        padding: 24px 24px 12px;
+    }
+}
+
+@media all and (min-width: 1120px) {
+    .menuBurger__header--mobile{
+        padding: 0;
+    }
+    .menuBurger__header--tablet {
+        padding: 0;
+    }
+    .menuBurger__header--bigScreen {
+        padding: 30px 29px 6px 22px;
+    }
+}

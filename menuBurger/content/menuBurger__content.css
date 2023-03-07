@@ -1,0 +1,12 @@
+.menuBurger__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+@media all and (min-height: 1025px) {
+    .menuBurger__content--bigScreen {
+        display: block;
+    }
+}
