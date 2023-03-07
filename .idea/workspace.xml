@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/icon/closeIcon/icon__closeIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon/searchIcon/icon__searchIcon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuBurger/contacts/menuBurger__contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuBurger/content/menuBurger__content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuBurger/header/menuBurger__header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuBurger/langs/menuBurger__langs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuBurger/nav/menuBurger__nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/contacts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/li/menu__li.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/li/menu__li.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/link/menu__link.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/link/menu__link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menuBurger/menuBurger.css" beforeDir="false" afterPath="$PROJECT_DIR$/menuBurger/menuBurger.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677830898182</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="menuBurger done">
+      <created>1678151402023</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678151402023</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +241,8 @@
     <MESSAGE value="menuBurger start" />
     <MESSAGE value="zz" />
     <MESSAGE value="menuBurger" />
-    <option name="LAST_COMMIT_MESSAGE" value="menuBurger" />
+    <MESSAGE value="menuBurger done" />
+    <option name="LAST_COMMIT_MESSAGE" value="menuBurger done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677518271571">
@@ -259,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677601540157" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1677830904275">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678151951936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677830904275" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678151951936" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677448902950" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1677517597144">
       <screen x="0" y="0" width="1920" height="1040" />

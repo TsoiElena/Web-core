@@ -1,135 +1,69 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
-    <!--header styles-->
-    <link rel="stylesheet" href="header/header.css">
-    <link rel="stylesheet" href="header/logicBlock/header__logicBlock.css">
-    <link rel="stylesheet" href="header/line/header__line.css">
-    <!--icon styles-->
-    <link rel="stylesheet" href="icon/icon.css">
-    <link rel="stylesheet" href="icon/menuIcon/icon__menuIcon.css">
-    <link rel="stylesheet" href="icon/settingsIcon/icon__settingsIcon.css">
-    <link rel="stylesheet" href="icon/statusIcon/icon__statusIcon.css">
-    <link rel="stylesheet" href="icon/profileIcon/icon__profileIcon.css">
-    <link rel="stylesheet" href="icon/callIcon/icon__callIcon.css">
-    <link rel="stylesheet" href="icon/chatIcon/icon__chatIcon.css">
-    <!--logo styles-->
-    <link rel="stylesheet" href="siteLogo/siteLogo.css">
-    <!--contacts styles-->
-    <link rel="stylesheet" href="contacts/contacts.css">
-    <!--settingStatusBlock styles-->
-    <link rel="stylesheet" href="settingStatusBlock/settingStatusBlock.css">
-    <link rel="stylesheet" href="settingStatusBlock/button/settingStatusBlock__button.css">
-    <!--main styles-->
-    <link rel="stylesheet" href="main/main.css">
-    <link rel="stylesheet" href="main/header/main__header.css">
+    <link rel="stylesheet" href="menuBurger/menuBurger.css">
+    <link rel="stylesheet" href="menuBurger/header/menuBurger__header.css">
+    <link rel="stylesheet" href="menuBurger/nav/menuBurger__nav.css">
+    <link rel="stylesheet" href="menuBurger/contacts/menuBurger__contacts.css">
+    <link rel="stylesheet" href="menuBurger/langs/menuBurger__langs.css">
+    <link rel="stylesheet" href="menuBurger/content/menuBurger__content.css">
 
-    <link rel="stylesheet" href="title/title.css">
+    <link rel="stylesheet" href="header/logicBlock/header__logicBlock.css">
 
     <link rel="stylesheet" href="button/button.css">
 
+    <link rel="stylesheet" href="contacts/contacts.css">
+
+    <link rel="stylesheet" href="icon/icon.css">
+    <link rel="stylesheet" href="icon/searchIcon/icon__searchIcon.css">
+    <link rel="stylesheet" href="icon/closeIcon/icon__closeIcon.css">
+    <link rel="stylesheet" href="icon/callIcon/icon__callIcon.css">
+    <link rel="stylesheet" href="icon/chatIcon/icon__chatIcon.css">
+    <link rel="stylesheet" href="icon/profileIcon/icon__profileIcon.css">
+
     <link rel="stylesheet" href="link/link.css">
 
-    <link rel="stylesheet" href="text/text.css">
-
-    <link rel="stylesheet" href="menu/menu.css">
-    <link rel="stylesheet" href="menu/ul/menu__ul.css">
-    <link rel="stylesheet" href="menu/li/menu__li.css">
-    <link rel="stylesheet" href="menu/link/menu__link.css">
-    <link rel="stylesheet" href="menu/gardient/menu__gardient.css">
-
-    <link rel="stylesheet" href="content/content.css">
-    <link rel="stylesheet" href="content/info/content__info.css">
-    <link rel="stylesheet" href="content/text/content__text.css">
-    <link rel="stylesheet" href="content/button/content__button.css">
-    <link rel="stylesheet" href="content/photo/content__photo.css">
-    <link rel="stylesheet" href="content/logicBlock/content__logicBlock.css">
-
-    <title>WebCore1.3</title>
+    <title>menu</title>
 </head>
 <body>
-    <header class="header header--mobile header--tablet header--bigScreen">
+<div class="menuBurger menuBurger--tablet">
+    <header class="menuBurger__header menuBurger__header--mobile menuBurger__header--tablet menuBurger__header--bigScreen">
         <div class="header__logicBlock">
-            <button class="button icon icon__menuIcon icon__menuIcon--mobile icon__menuIcon--tablet"></button>
-            <div class="header__line header__line--tablet"></div>
+            <button class="button icon icon__closeIcon icon__closeIcon--mobile icon__closeIcon--bigScreen"></button>
             <img src="./assets/logos/siteLogo.png" alt="логотип сайта" class="sitelogo">
-            <div class="header__line header__line--mobile"></div>
         </div>
-        <div class="header__logicBlock">
-            <div class="contacts contacts--mobile contacts--tablet">
+        <button class="button icon icon__searchIcon"></button>
+    </header>
+    <div class="menuBurger__content menuBurger__content--bigScreen">
+        <ul class="menuBurger_nav menuBurger_nav--mobile menuBurger__nav--tablet">
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet menuBurger__nav--link--active">Ремонт техники</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Услуги и сервисы</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Корпоративным клиентам</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Продавцам техники</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Партнерам</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Производителям</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Наши сервисные центры</a></li>
+            <li class="menuBurger__nav--item"><a href="#" class="link menuBurger__nav--link menuBurger__nav--link--mobile menuBurger__nav--link--tablet">Контакты</a></li>
+        </ul>
+        <div class="menuBurger__contacts menuBurger__contacts--mobile menuBurger__contacts--tablet menuBurger__contacts--bigScreen">
+            <div class="contacts">
                 <button class="button icon icon__callIcon"></button>
                 <button class="button icon icon__chatIcon"></button>
                 <button class="button icon icon__profileIcon"></button>
             </div>
-            <div class="header__line header__line--tablet"></div>
-            <div class="settingStatusBlock">
-                <button class="button icon icon__settingsIcon"></button>
-                <button class="button icon icon__statusIcon"></button>
+            <a href="#" class="link menuBurger--mail">mail@cps.com</a>
+            <a href="#" class="menuBurger--phone">8 800 890 8900</a>
+            <div class="menuBurger__langs menuBurger__langs--mobile menuBurger__langs--tablet">
+                <button class="button menuBurger__langs--button menuBurger__langs--button--active">RU</button>
+                <button class="button menuBurger__langs--button">EN</button>
+                <button class="button menuBurger__langs--button">CH</button>
             </div>
         </div>
-    </header>
-    <main class="main">
-        <div class="main__header main__header-mobile main__header--tablet main__header--bigScreen">
-            <h1 class="title">Услуги и сервисы</h1>
-            <div class="settingStatusBlock settingStatusBlock--mobile settingStatusBlock--scrren--tablet settingStatusBlock--bigScreen">
-                <button class="button  settingStatusBlock__button">
-                    Оставить заявку
-                    <div class=" icon icon__settingsIcon"></div>
-                </button>
-                <button class="button  settingStatusBlock__button">
-                    Статус ремонта
-                    <div class=" icon icon__statusIcon"></div>
-                </button>
-            </div>
-        </div>
-        <nav class="menu menu--mobile menu--tablet menu--bigScreen">
-            <ul class="menu__ul menu__ul--mobile menu__ul--bigScreen">
-                <li class="menu__li menu__li--bigScreen menu__li--bigScreen--active">
-                    <a href="#" class="link menu__link menu__link--bigScreen--active">Ремонтируемые бренды</a>
-                </li>
-                <li class="menu__li menu__li--mobile--active">
-                    <a href="#" class="link menu__link menu__link--mobile--active menu__link--bigScreen">Ремонтируемые устройства</a>
-                </li>
-                <li class="menu__li menu__li--mobile">
-                    <a href="#" class="link menu__link menu__link--mobile menu__link--tablet">Дополнительные услуги</a>
-                </li>
-                <li class="menu__li">
-                    <a href="#" class="link menu__link menu__link--mobile menu__link--tablet menu__link--bigScreen">Цены на услуги</a>
-                </li>
-                <li class="menu__li menu__li--bigScreen">
-                    <a href="#" class="link menu__link menu__link--bigScreen">Адреса сервисных центров</a>
-                </li>
-                <li class="menu__li">
-                    <a href="#" class="link menu__link menu__link--mobile menu__link--tablet menu__link--bigScreen">Специальные цены</a>
-                </li>
-                <li class="menu__li">
-                    <a href="#" class="link menu__link menu__link--mobile menu__link--tablet menu__link--bigScreen">Отзывы</a>
-                </li>
-            </ul>
-            <div class="menu__gardient"></div>
-        </nav>
-        <div class="content content--mobile content--tablet content--bigScreen">
-            <div class="content__info--mobile content__info--tablet">
-                <div class="content__logicBlock--tablet">
-                    <p class="text content__text--mobile">
-                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                    </p>
-                    <p class="text content__text--tablet">
-                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов.
-                        Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                    </p>
-                </div>
-                <button class="button content__button content__button--mobile content__button--tablet content__button--bigScreen">
-                    <div class="content__button--icon"></div>
-                    Читать далее
-                </button>
-            </div>
-            <img src="assets/photos/siteLogoPhoto.png" alt="фото вывески" class="content__photo--tablet content__photo--bigScreen">
-        </div>
-    </main>
+    </div>
+</div>
 </body>
 </html>
