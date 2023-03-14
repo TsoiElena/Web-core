@@ -1,0 +1,18 @@
+.swiper__header {
+    background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
+    padding: 16px;
+    box-sizing: border-box;
+    border-top: 1px solid #D9FFF5;
+}
+
+@media all and (min-width: 768px) {
+    .swiper__header--tablet {
+        padding-left: 24px;
+    }
+}
+
+@media all and (min-width: 1120px) {
+    .swiper__header--bigScreen {
+        padding-left: 32px;
+    }
+}

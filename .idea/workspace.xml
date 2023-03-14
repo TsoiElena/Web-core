@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00660e36-0f03-4925-b7a0-f04305b6985a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon/buttonIcon/icon__buttonIcon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subtitle/subtitle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swiper/header/swiper__header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swiper/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swiper/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/button/content__button.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/button/content__button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/icon/icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -226,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678153276340</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="slider start">
+      <created>1678725910907</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678725910907</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +273,8 @@
     <MESSAGE value="zz" />
     <MESSAGE value="menuBurger" />
     <MESSAGE value="menuBurger done" />
-    <option name="LAST_COMMIT_MESSAGE" value="menuBurger done" />
+    <MESSAGE value="slider start" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677518271571">
@@ -269,11 +285,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1677601540157" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678153278508">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1678725915241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1678153278508" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1677448902950" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1678725915241" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1677517597144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

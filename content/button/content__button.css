@@ -5,14 +5,6 @@
     background-color: transparent;
 }
 
-.content__button--icon {
-    width: 24px;
-    height: 24px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(../../assets/Icons/readMoreIcon.svg);
-}
-
 .content__button--mobile {
     margin-top: 16px;
 }
