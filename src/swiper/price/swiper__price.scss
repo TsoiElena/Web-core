@@ -1,0 +1,158 @@
+@import "../../global";
+
+.swiper-price {
+  height: 310px;
+  margin-bottom: 10px;
+  @media all and (min-width: $screen-tablet) {
+    height: auto;
+    margin-bottom: 0;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+    margin-bottom: 17px;
+  }
+}
+
+.swiper-price--header {
+  height: 56px;
+}
+
+
+.swiper-wrapper--price {
+  height: 200px;
+  padding: 16px 0;
+  display: flex;
+
+  @media all and (min-width: $screen-tablet) {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border: 1px solid $border-color;
+    margin: 0 24px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+}
+
+.swiper--price--card {
+  flex-shrink: unset;
+  min-width: 260px;
+  width: 260px;
+  height: 200px;
+  box-sizing: border-box;
+  background: $white-fone;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  padding: 16px;
+  margin-left: 16px;
+
+  display: grid;
+  grid-template-areas:
+    'service service service'
+    'price price price'
+    'duration duration button';
+  row-gap: 16px;
+
+  @media all and (min-width: $screen-tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: auto;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid $border-color;
+
+    &:first-child {
+      border-radius: 6px 6px 0 0;
+
+    }
+
+    &:last-child {
+      width: auto;
+      margin: 0;
+      border-radius: 0 0 6px 6px;
+      border: none;
+    }
+  }
+}
+
+.swiper--price--service {
+  grid-area: service;
+
+  &::before {
+    content: 'Ремонтные услуги';
+  }
+
+  @media all and (min-width: $screen-tablet) {
+    flex-grow: 2;
+  }
+}
+
+.swiper--price--price {
+  grid-area: price;
+
+  &::before {
+    content: 'Цена';
+  }
+}
+
+.swiper--price--duration {
+  grid-area: duration;
+
+  &::before {
+    content: 'Срок';
+  }
+
+
+}
+
+.swiper--price--button {
+  display: flex;
+  width: 119px;
+  height: 32px;
+
+  grid-area: button;
+  align-self: end;
+  justify-self: end;
+}
+
+.swiper--price--service::before,
+.swiper--price--price::before,
+.swiper--price--duration::before, {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  color: $link-menu-color;
+  padding-bottom: 4px;
+
+  @media all and (min-width: $screen-tablet){
+    display: none;
+  }
+}
+
+.swiper--price--card-header {
+  display: none;
+
+  @media all and (min-width: $screen-tablet){
+    display: flex;
+    height: 63px;
+    justify-content: space-between;
+    align-items: end;
+    background-color: transparent;
+    padding: 0 0 16px 16px;
+    margin: 0 24px;
+    border: none;
+    gap: 80px;
+    box-sizing: border-box;
+  }
+}
+
+.swiper--price--card--headerText {
+  font-size: 14px;
+  line-height: 16px;
+  color: $link-menu-color;
+}

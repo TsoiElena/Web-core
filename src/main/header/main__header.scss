@@ -1,0 +1,19 @@
+@import "../../global";
+
+.main__header {
+    height: 40px;
+    border-left: 4px solid $active-line;
+    margin-top: 24px;
+    padding-left: 12px;
+  @media all and (min-width: $screen-tablet) {
+      padding-left: 20px;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 30px;
+      padding-right: 32px;
+  }
+}
+

@@ -1,0 +1,16 @@
+@import "../../global.scss";
+
+.menu__ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  @media all and (min-width: $screen-bigScrren) {
+      overflow: hidden;
+      flex-wrap: wrap;
+      row-gap: 7px;
+  }
+}
+
+

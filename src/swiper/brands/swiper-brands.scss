@@ -1,0 +1,61 @@
+@import "../../global";
+
+.swiper-brands {
+  height: 210px;
+  margin-bottom: 10px;
+  @media all and (min-width: $screen-tablet) {
+    height: auto;
+    margin-bottom: 0;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+    margin-bottom: 17px;
+  }
+}
+.swiper-wrapper--brands {
+  height: 72px;
+  padding: 16px 0;
+  display: flex;
+  @media all and (min-width: $screen-tablet) {
+      padding: 24px 24px 0;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 16px;
+      height: 160px;
+      overflow: hidden;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      padding: 24px 32px 0;
+      column-gap: 32px;
+  }
+}
+
+.swiper-slide--brands {
+  flex-shrink: unset;
+  min-width: 240px;
+  width: 240px;
+  height: 72px;
+  box-sizing: border-box;
+
+  background: $white-fone;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-left: 16px;
+  align-items: center;
+  @media all and (min-width: $screen-tablet) {
+      margin-left: 0;
+      min-width: 224px;
+      width: 224px;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      margin-left: 0;
+      min-width: 240px;
+  }
+}
+
+.swiper-wrapper--show {
+  height: auto;
+}

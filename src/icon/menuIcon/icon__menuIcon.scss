@@ -1,0 +1,11 @@
+@import "../../global";
+
+.icon__menuIcon {
+    background-image: url(../img/Icons/menuIcon.svg);
+    margin-right: 17px;
+  @media all and (min-width: $screen-tablet) {
+      margin: 0;
+  }
+}
+
+

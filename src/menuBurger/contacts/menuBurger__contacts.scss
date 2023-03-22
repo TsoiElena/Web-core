@@ -1,0 +1,16 @@
+@import "../../global.scss";
+
+.menuBurger__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 16px;
+
+  @media all and (min-width: $screen-tablet) {
+      padding-left: 24px;
+  }
+
+  @media all and (min-height: 1025px) and (min-width: $screen-bigScrren) {
+      margin-top: 237px;
+    }
+}

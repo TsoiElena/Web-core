@@ -1,9 +1,0 @@
-.content__info--mobile {
-    margin: 0 16px;
-}
-
-@media all and (min-width: 768px) {
-    .content__info--tablet {
-        margin: 0;
-    }
-}

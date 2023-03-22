@@ -1,0 +1,18 @@
+@import "../global";
+
+.header {
+    background-color: $white-fone;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 88px;
+    padding: 0 16px;
+    border-bottom: 1px solid $subtitle-border-color;
+    box-sizing: border-box;
+  @media all and (min-width: $screen-bigScrren) {
+      display: none;
+  }
+}
+
+

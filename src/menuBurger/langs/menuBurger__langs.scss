@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.menuBurger__langs {
+    display: flex;
+    gap: 7px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+
+  @media all and (min-width: $screen-tablet) {
+      margin-top: 40px;
+  }
+
+  @media all and (min-width: $screen-bigScrren) {
+      margin-bottom: 0;
+  }
+}
+
+.menuBurger__langs--button {
+    padding: 0;
+    background-color: transparent;
+}
+
+.menuBurger__langs--button--active {
+    color: $link-menu-color;
+}

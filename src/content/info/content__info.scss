@@ -1,0 +1,10 @@
+@import "../../global";
+
+.content__info {
+    margin: 0 16px;
+  @media all and (min-width: $screen-tablet) {
+      margin: 0;
+  }
+}
+
+

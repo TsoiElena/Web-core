@@ -1,0 +1,17 @@
+.icon__buttonIcon {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 0;
+
+}
+
+.icon__buttonIcon--showAll {
+    background-image: url(../img/Icons/readMoreIcon.svg);
+}
+
+.icon__buttonIcon--hide {
+    transition-property: background-image;
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}

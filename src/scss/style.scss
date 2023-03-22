@@ -1,0 +1,89 @@
+@import "../fonts/fonts.css";
+@import "../global";
+
+@import "../button/button";
+@import "../subtitle/subtitle";
+@import "../link/link.css";
+@import "../text/text.scss";
+@import "../title/title.scss";
+@import "../siteLogo/siteLogo.css";
+@import "../input/input.scss";
+
+@import "../contacts/contacts.scss";
+
+@import "../header/header.scss";
+@import "../header/logicBlock/header__logicBlock.css";
+@import "../header/line/header__line.scss";
+
+@import "../main/main.scss";
+@import "../main/header/main__header.scss";
+
+@import "../settingStatusBlock/settingStatusBlock.scss";
+@import "../settingStatusBlock/button/settingStatusBlock__button.css";
+
+@import "../menu/menu.scss";
+@import "../menu/ul/menu__ul.scss";
+@import "../menu/li/menu__li.scss";
+@import "../menu/link/menu__link.scss";
+@import "../menu/gardient/menu__gardient.scss";
+
+@import "../content/content.scss";
+@import "../content/info/content__info.scss";
+@import "../content/text/content__text.scss";
+@import "../content/button/content__button.scss";
+@import "../content/photo/content__photo.scss";
+
+
+@import "../icon/icon.scss";
+
+@import "../icon/callIcon/icon__callIcon.css";
+@import "../icon/chatIcon/icon__chatIcon.css";
+@import "../icon/profileIcon/icon__profileIcon.css";
+@import "../icon/searchIcon/icon__searchIcon.css";
+@import "../icon/settingsIcon/icon__settingsIcon.css";
+@import "../icon/statusIcon/icon__statusIcon.css";
+
+@import "../icon/menuIcon/icon__menuIcon.scss";
+@import "../icon/closeIcon/icon__closeIcon.scss";
+@import "../icon/buttonIcon/icon__buttonIcon.scss";
+
+@import "../menuBurger/menuBurger.scss";
+@import "../menuBurger/header/menuBurger__header.scss";
+@import "../menuBurger/content/menuBurger__content.scss";
+@import "../menuBurger/nav/menuBurger__nav.scss";
+@import "../menuBurger/contacts/menuBurger__contacts.scss";
+@import "../menuBurger/langs/menuBurger__langs.scss";
+
+@import "../feedback/feedback.scss";
+
+@import "../swiper/swiper";
+@import "../swiper/header/swiper__header";
+@import "../swiper/brands/swiper-brands";
+@import "../swiper/devices/swiper__devices.scss";
+@import "../swiper/price/swiper__price.scss";
+
+
+@import "../modals/modal.scss";
+
+
+
+body {
+  font-family: "TT Lakes";
+  margin: 0;
+  background-color: $page-color;
+}
+
+.container {
+  @media all and (min-width: $screen-bigScrren) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.modalOpen {
+  position: fixed;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+

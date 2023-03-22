@@ -1,0 +1,23 @@
+@import "../global";
+
+.button {
+    border: none;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.button--color {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.15px;
+  background-color: $icon-button-color;
+  border-radius: 16px;
+  color: $white-fone;
+  padding: 4px 8px 4px 12px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}

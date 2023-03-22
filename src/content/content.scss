@@ -1,0 +1,24 @@
+@import "../global";
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+  @media all and (min-width: $screen-tablet) {
+      flex-direction: row;
+      gap: 48px;
+      justify-content: space-between;
+      margin: 32px 25px;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      gap: 36px;
+      margin: 10px 29px 51px 34px;
+  }
+}
+
+
+
+

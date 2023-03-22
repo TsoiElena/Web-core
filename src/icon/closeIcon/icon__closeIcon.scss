@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.icon__closeIcon {
+    background-image: url(../img/Icons/closeIcon.svg);
+}
+
+.icon__closeIcon--mobile {
+    margin-right: 17px;
+}
+
+@media all and (min-width: $screen-bigScrren) {
+    .icon__closeIcon--bigScreen {
+        display: none;
+    }
+}

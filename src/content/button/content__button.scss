@@ -1,0 +1,18 @@
+@import "../../global";
+
+.content__button {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    background-color: transparent;
+    margin-top: 16px;
+  @media all and (min-width: $screen-tablet) {
+      margin-top: 10px;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      margin-top: 13px;
+  }
+}
+
+
+

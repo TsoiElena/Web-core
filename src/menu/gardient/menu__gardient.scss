@@ -1,0 +1,14 @@
+@import "../../global";
+
+.menu__gardient {
+    min-width: 20px;
+    background: linear-gradient(
+            270deg,
+            #F8F8F8 16.84%,
+            rgba(248, 248, 248, 0.0001) 100%);
+  @media all and (min-width: $screen-bigScrren) {
+      display: none;
+  }
+}
+
+

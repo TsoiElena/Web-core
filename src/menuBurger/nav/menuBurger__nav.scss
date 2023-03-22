@@ -1,0 +1,41 @@
+@import "../../global.scss";
+
+.menuBurger_nav {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 8px;
+
+  @media all and (min-width: $screen-tablet) {
+    margin-top: 28px;
+    gap: 16px;
+  }
+
+  @media all and (min-width: $screen-bigScrren) {
+      margin-top: 26px;
+      gap: 13px;
+  }
+}
+
+.menuBurger__nav--item {
+    list-style-type: none;
+}
+
+.menuBurger__nav--link {
+    text-decoration: none;
+    color: $text-color;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 16px;
+  @media all and (min-width: $screen-tablet) {
+      padding-left: 24px;
+  }
+}
+
+.menuBurger__nav--link--active {
+    box-sizing: border-box;
+    border-left: 4px solid $active-line;
+    color: $link-menu-color;
+}

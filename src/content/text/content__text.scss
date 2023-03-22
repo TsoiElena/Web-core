@@ -1,0 +1,23 @@
+@import "../../global";
+
+.content__text {
+  @media all and (min-width: $screen-tablet) {
+    max-height: 160px;
+    overflow: hidden;
+  }
+}
+
+.content__text--mobile {
+    margin: 0;
+
+}
+
+.content__text--tablet {
+    display: none;
+  @media all and (min-width: $screen-tablet) {
+      display: block;
+      margin-bottom: 0;
+  }
+}
+
+

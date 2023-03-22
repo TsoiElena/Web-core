@@ -1,0 +1,16 @@
+@import "../global.scss";
+
+.settingStatusBlock {
+    display: flex;
+    gap: 16px;
+}
+
+.settingStatusBlock--bigScreen {
+  display: none;
+  @media all and (min-width: $screen-bigScrren) {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+

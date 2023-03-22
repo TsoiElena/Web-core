@@ -1,0 +1,13 @@
+@import "../../global.scss";
+
+.menuBurger__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  @media all and (min-height: 1025px) and (min-width: $screen-bigScrren) {
+      display: block;
+  }
+}
+
+

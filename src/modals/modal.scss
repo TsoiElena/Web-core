@@ -1,0 +1,27 @@
+@import "../global";
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: -99;
+  visibility: hidden;
+
+  @media all and (min-width: $screen-bigScrren) {
+    visibility: visible;
+    position: static;
+  }
+}
+
+.modal--show {
+  visibility: visible;
+  z-index: 99;
+  background-color: $modal-fone;
+  transform: scale(1);
+  opacity: 1;
+}

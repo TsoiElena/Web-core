@@ -1,0 +1,7 @@
+@import "../global";
+
+.main {
+  @media all and (min-width: $screen-bigScrren) {
+      max-width: 1120px;
+  }
+}

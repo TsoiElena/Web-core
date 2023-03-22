@@ -1,0 +1,65 @@
+@import "../global.scss";
+
+.feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  background: $white-fone;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
+  @media all and (min-width: $screen-tablet) {
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
+
+  }
+}
+
+.feedback--close {
+  z-index: 100;
+  position: absolute;
+  right: 264px;
+  margin: 24px 0 0 16px;
+
+  @media all and (min-width: $screen-tablet) {
+    margin: 32px 32px 0 0;
+    right: 320px;
+  }
+}
+
+.feedback--header {
+  height: 30px;
+  border-left: 4px solid $active-line;
+  color: $link-menu-color;
+  margin-top: 96px;
+  margin-bottom: 24px;
+  padding-left: 12px;
+  @media all and (min-width: $screen-tablet) {
+    margin-top: 32px;
+  }
+}
+
+.feedback--content {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 0 16px;
+  @media all and (min-width: $screen-tablet) {
+    padding: 0 32px;
+  }
+}
+
+.feedback--form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feedback--button {
+  width: 136px;
+  display: flex;
+  align-self: end;
+}
+

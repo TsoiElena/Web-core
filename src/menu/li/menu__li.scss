@@ -1,0 +1,33 @@
+@import "../../global";
+
+.menu__li {
+    list-style-type: none;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+
+.menu__li--mobile--active,
+.menu__li--bigScreen--active {
+    background: $white-fone;
+    border: 2px solid $active-border;
+    border-radius: 6px;
+}
+
+.menu__li--bigScreen {
+    display: none;
+}
+
+@media all and (min-width: $screen-bigScrren) {
+    .menu__li--mobile {
+        display: none;
+    }
+
+    .menu__li--bigScreen {
+      display: block;
+    }
+
+    .menu__li--mobile--active {
+        display: none;
+    }
+}

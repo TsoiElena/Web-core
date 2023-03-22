@@ -1,6 +1,0 @@
-@media all and (min-width: 768px) {
-    .content__logicBlock--tablet {
-        max-height: 160px;
-        overflow: hidden;
-    }
-}

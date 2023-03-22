@@ -1,0 +1,37 @@
+@import "../global";
+
+.label {
+  position: relative;
+  margin-left: 16px;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 12px 16px;
+  width: 100%;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  height: 48px;
+}
+
+label {
+  position: absolute;
+  top: -36px;
+  color: $swiper-color;
+  transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+input:focus ~ .label label,
+input:valid ~ .label label {
+  color: $icon-button-color;
+  transform: translateY(-30px) translateX(-16px);
+}
+
+.input-text {
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $text-color;
+}

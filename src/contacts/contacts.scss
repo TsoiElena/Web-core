@@ -1,0 +1,17 @@
+@import "../global";
+
+.contacts {
+    display: flex;
+    gap: 16px;
+}
+
+.contacts--mobile {
+    display: none;
+}
+
+@media all and (min-width: $screen-tablet) {
+    .contacts--tablet {
+        display: flex;
+        gap: 16px;
+    }
+}

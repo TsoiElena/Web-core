@@ -1,0 +1,18 @@
+@import "../global.scss";
+
+.text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: $text-color;
+}
+
+.text--table {
+  font-size: 14px;
+  line-height: 16px;
+  color: $link-menu-color;
+}
+
+.text-colored {
+  color: $icon-button-color;
+}

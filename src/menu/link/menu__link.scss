@@ -1,0 +1,31 @@
+@import "../../global";
+
+.menu__link {
+    white-space: nowrap;
+    color: $link-menu-color;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 10px;
+  @media all and (min-width: $screen-tablet) {
+      margin: 0 12px;
+  }
+  @media all and (min-width: $screen-bigScrren) {
+      margin: 0 19px;
+  }
+}
+
+.menu__link--mobile--active {
+    margin-left: 16px;
+    margin-right: 16px;
+  @media all and (min-width: $screen-bigScrren) {
+      margin: 0;
+  }
+}
+
+
+
+@media all and (min-width: $screen-bigScrren) {
+    .menu__link--bigScreen--active {
+        margin: 0 22px;
+    }
+}

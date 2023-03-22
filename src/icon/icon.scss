@@ -1,0 +1,30 @@
+@import "../global";
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: $icon-button-color;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon:hover {
+    transition: 1.5s;
+    opacity: 0.7;
+}
+
+.icon--next {
+    background-color: transparent;
+    border: 2px solid $icon-button-color;
+    border-radius: 20px;
+    background-image: url(../img/Icons/nextIcon.svg);
+}
+
+.icon--next--button {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/Icons/next-button.svg);
+  border: none;
+}
+
