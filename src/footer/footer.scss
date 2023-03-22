@@ -1,0 +1,55 @@
+@import '../global';
+
+.footer {
+  border-top: 1px solid $subtitle-border-color;
+  box-sizing: border-box;
+
+  height: 147px;
+  margin-top: 40px;
+  padding: 16px 16px 19px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  &__text {
+    text-align: center;
+  }
+
+  @media all and (min-width: $screen-tablet) {
+    height: 105px;
+    margin-top: 47px;
+    padding: 32px 32px 41px 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+
+    &__text{
+      display: inline-block;
+    }
+
+    &__text--created {
+      min-width: 218px;
+      text-align: start;
+    }
+
+    &__text--conf {
+      min-width: 214px;
+    }
+
+    &__text--info {
+      text-align: end;
+    }
+  }
+
+  @media all and (min-width: $screen-tablet) {
+    height: 85px;
+    margin-top: 50px;
+    padding: 32px 32px 21px 32px;
+
+    &__text--info {
+      width: 330px;
+    }
+  }
+}

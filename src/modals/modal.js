@@ -1,3 +1,5 @@
+
+
 function ModalOpened (modal) {
   const html = document.documentElement;
   const scrollPosition = window.pageYOffset;

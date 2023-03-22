@@ -230,7 +230,164 @@
         <span>Показать все</span>
       </button>
     </div>
+    <div class="swiper swiper-price">
+      <header class=" swiper__header swiper-price--header">
+        <span class="subtitle">Цены на услуги</span>
+      </header>
+      <div class="swiper-slide swiper--price--card-header">
+        <span class="swiper--price--service swiper--price--card--headerText">Ремонтные услуги</span>
+        <span class="swiper--price--card--headerText">Цена</span>
+        <span class="swiper--price--card--headerText">Срок</span>
+        <span class="swiper--price--button"></span>
+      </div>
+      <div class="swiper-wrapper swiper-wrapper--price">
+        <div class="swiper-slide swiper--price--card">
+          <span class="text swiper--price--service">Тестирование с выдачей технического заключения</span>
+          <span class="text swiper--price--price">1 000 ₽</span>
+          <span class="text swiper--price--duration">30-120 мин</span>
+          <button class="button button--color swiper--price--button">
+            Заказать
+            <div class=" icon icon--next icon--next--button swiper--devices--nex"></div>
+          </button>
+        </div>
+        <div class="swiper-slide swiper--price--card">
+          <span class="text swiper--price--service">Диагностика</span>
+          <span class="text swiper--price--price">Бесплатно</span>
+          <span class="text swiper--price--duration">30 мин</span>
+          <button class="button button--color swiper--price--button">
+            Заказать
+            <div class=" icon icon--next icon--next--button swiper--devices--nex"></div>
+          </button>
+        </div>
+        <div class="swiper-slide swiper--price--card">
+          <span class="text swiper--price--service">Замена дисплея</span>
+          <span class="text swiper--price--price">1 000 ₽</span>
+          <span class="text swiper--price--duration">30-120 мин</span>
+          <button class="button button--color swiper--price--button">
+            Заказать
+            <div class=" icon icon--next icon--next--button swiper--devices--nex"></div>
+          </button>
+        </div>
+        <div class="swiper-slide swiper--price--card">
+          <span class="text swiper--price--service">Замена полифонического динамика</span>
+          <span class="text swiper--price--price">1 000 ₽</span>
+          <span class="text swiper--price--duration">30-120 мин</span>
+          <button class="button button--color swiper--price--button">
+            Заказать
+            <div class=" icon icon--next icon--next--button swiper--devices--nex"></div>
+          </button>
+        </div>
+        <div class="swiper-slide swiper--price--card">
+          <span class="text swiper--price--service">Замена программного обеспечения</span>
+          <span class="text swiper--price--price">1 000 ₽</span>
+          <span class="text swiper--price--duration">30-120 мин</span>
+          <button class="button button--color swiper--price--button">
+            Заказать
+            <div class=" icon icon--next icon--next--button swiper--devices--nex"></div>
+          </button>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="price--comerce">
+      <div class="swiper--price--note">
+    <span class="text--note">
+      Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу.
+      Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+    </span>
+      </div>
+      <button class="button price--comerce--button">
+        Получить коммерческое предложение
+        <div class="icon icon--next price--comerce--icon"></div>
+      </button>
+    </div>
+    <footer class="footer">
+      <span class="text--table footer__text footer__text--created">
+        © 2019 CPS <br>
+        Разработано командой Apesong
+        </span>
+      <span class="text--table footer__text footer__text--conf">Политика конфиденциальности</span>
+      <span class="text--table footer__text footer__text--info">Информация, размещенная на данной странице, не является публичной офертой</span>
+    </footer>
   </main>
+  <div class="modal modal--any" id="chat-modal">
+    <button id="chat-close" class="feedback--close button icon icon__closeIcon icon__closeIcon--mobile"></button>
+
+    <div class="feedback" id="chat-feedback">
+      <div class="feedback--header"><span class="title--modal">Обратная связь</span></div>
+
+      <div class="feedback--content">
+        <form class="feedback--form">
+          <div>
+            <input type="text" class="input-text" required>
+            <div class="label .input-text">
+              <label>Имя</label>
+            </div>
+          </div>
+          <div>
+            <input type="text" class="input-text" required>
+            <div class="label .input-text">
+              <label>Телефон</label>
+            </div>
+          </div>
+          <div>
+            <input type="text" class="input-text" required>
+            <div class="label .input-text">
+              <label>Электронная почта</label>
+            </div>
+          </div>
+          <div>
+            <input type="text" class="input-text feedback__message" required>
+            <div class="label .input-text">
+              <label>Сообщение</label>
+            </div>
+          </div>
+        </form>
+        <div>
+        <span class="text--table">
+          Нажимая “отправить”, вы даете согласие на
+          <span class="text--table text-colored">обработку персональных данных</span>
+          и соглашаетесь с нашей
+          <span class="text--table text-colored">политикой конфиденциальности</span>
+        </span>
+        </div>
+        <button class="button button--color feedback--button">
+          ОТПРАВИТЬ
+          <div class=" icon icon--next icon--next--button"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal--any" id="call-modal">
+  <button id="call-close" class="feedback--close button icon icon__closeIcon icon__closeIcon--mobile"></button>
+
+  <div class="feedback" id="call-feedback">
+    <div class="feedback--header"><span class="title--modal">Заказать звонок</span></div>
+
+    <div class="feedback--content">
+      <form class="feedback--form">
+        <div>
+          <input type="text" class="input-text" required>
+          <div class="label .input-text">
+            <label>Телефон</label>
+          </div>
+        </div>
+      </form>
+      <div>
+        <span class="text--table">
+          Нажимая “отправить”, вы даете согласие на
+          <span class="text--table text-colored">обработку персональных данных</span>
+          и соглашаетесь с нашей
+          <span class="text--table text-colored">политикой конфиденциальности</span>
+        </span>
+      </div>
+      <button class="button button--color feedback--button">
+        ОТПРАВИТЬ
+        <div class=" icon icon--next icon--next--button"></div>
+      </button>
+    </div>
+  </div>
+</div>
 </div>
 </body>
 </html>

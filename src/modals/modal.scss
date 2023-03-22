@@ -15,7 +15,14 @@
   @media all and (min-width: $screen-bigScrren) {
     visibility: visible;
     position: static;
+    z-index: 50;
   }
+}
+
+.modal--any {
+  visibility: hidden;
+  position: absolute;
+  z-index: -99;
 }
 
 .modal--show {

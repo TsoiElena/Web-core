@@ -12,6 +12,7 @@
   overflow: auto;
 
   @media all and (min-width: $screen-tablet) {
+    width: 440px;
     box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02), 16px 0 52px rgba(14, 24, 80, 0.2);
 
   }
@@ -25,7 +26,7 @@
 
   @media all and (min-width: $screen-tablet) {
     margin: 32px 32px 0 0;
-    right: 320px;
+    right: 440px;
   }
 }
 

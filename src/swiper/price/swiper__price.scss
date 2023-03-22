@@ -5,10 +5,10 @@
   margin-bottom: 10px;
   @media all and (min-width: $screen-tablet) {
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: 24px;
   }
   @media all and (min-width: $screen-bigScrren) {
-    margin-bottom: 17px;
+    margin-bottom: 32px;
   }
 }
 
@@ -155,4 +155,40 @@
   font-size: 14px;
   line-height: 16px;
   color: $link-menu-color;
+}
+
+.price--comerce{
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  @media all and (min-width: $screen-tablet){
+    padding: 0 24px;
+  }
+
+  @media all and (min-width: $screen-tablet){
+    padding: 0 32px;
+  }
+}
+
+.swiper--price--note {
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.price--comerce--button {
+  font-weight: bold;
+  color: $text-color;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+
+.price--comerce--icon {
+  display: inline-block;
+  height: 27px;
+  border: none;
+  transform: translateY(8px);
 }
